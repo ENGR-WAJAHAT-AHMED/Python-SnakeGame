@@ -1,23 +1,3 @@
-# import turtle
-# from turtle import Screen,Turtle
-# import time
-#
-#
-# screen=Screen()
-# screen.setup(width=600,height=600)
-# screen.bgcolor("black")
-# screen.title("SNAKE GAME")
-# screen.tracer(0)
-#
-#
-# game_is_over=True
-# while game_is_over:
-#     screen.update()
-#     time.sleep(0.1)
-#
-#
-#
-# screen.exitonclick()
 from turtle import Screen
 from snake import Snake
 from food import Food
